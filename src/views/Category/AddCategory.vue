@@ -9,10 +9,18 @@
         <div class="row">
             <form action="">
                 <div class="form-group">
-                    <label for="">
+                    <label for="">Category Name</label>
                         <input type="text" class="form-control">
-                    </label>
                 </div>
+                <div class="form-group">
+                    <label for="">Category Discriptio</label>
+                        <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Category Image</label>
+                        <input type="text" class="form-control">
+                </div>
+                <button type="submit" ></button>
             </form>
         </div>
     </div>
