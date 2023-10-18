@@ -14,10 +14,10 @@
                     <label for=""> Name</label>
                         <input type="text" class="form-control" v-model="categoryName" />
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for=""> Discriptio</label>
                         <textarea type="text" class="form-control" v-model="description"/>
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label for=""> Image</label>
                         <input type="text" class="form-control" v-model="imageUrl"/>
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-//const axios = require("axios");
+// const axios = require("axios");
 export default{
     
     data(){
@@ -45,7 +45,7 @@ export default{
     },
     method:{
         addCategory(){
-        console.log(this.categoryName,this.description);
+        console.log(this.categoryName,this.description)
         }
     }
 };

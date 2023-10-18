@@ -6,7 +6,8 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    
   },
   {
     path: '/about',
@@ -18,7 +19,7 @@ const routes = [
   },
   {
     path: '/admin/category/add',
-    name: 'Adcategory',
+    name: 'Addcategory',
     component: AddCategory
   },
 ]
