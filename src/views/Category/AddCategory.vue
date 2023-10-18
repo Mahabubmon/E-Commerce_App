@@ -8,7 +8,9 @@
             </div>
         </div>
         <div class="row">
-            <form>
+            <div class="col-3"></div>
+            <div class="col-6">
+                <form>
                 <div class="form-group">
                     <label for="">Name</label>
                     <input type="text" class="form-control">
@@ -23,6 +25,9 @@
                 </div>
                 <button type="submit" >Submit</button>
             </form>
+            </div>
+            <div class="col-3"></div>
+            
         </div>
     </div>
 </template>
