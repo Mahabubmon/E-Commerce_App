@@ -51,6 +51,13 @@ export default{
                 description: this.description,
                 imageUrl:    this.imageUrl
             };
+            const baseURL = "https://fakestoreapi.com/products";
+
+            axios({
+                method:'post',
+                url:'${baseURL}/category/create',
+                data
+            })
         },
     }
 
