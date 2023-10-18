@@ -12,15 +12,15 @@
                 <form action="">
                 <div class="form-group">
                     <label for=""> Name</label>
-                        <input type="text" class="form-control"/>
+                        <input type="text" class="form-control" v-model="categoryName" />
                 </div>
                 <div class="form-group">
                     <label for=""> Discriptio</label>
-                        <textarea type="text" class="form-control"/>
+                        <textarea type="text" class="form-control" v-model="description"/>
                 </div>
                 <div class="form-group">
                     <label for=""> Image</label>
-                        <input type="text" class="form-control"/>
+                        <input type="text" class="form-control" v-model="imageUrl"/>
                 </div>
                 <button type="submit" class="btn btn-primary" >Submit</button>
             </form>
@@ -33,7 +33,14 @@
 
 <script>
 export default{
-    setup(){}
+    data(){
+        return {
+            categoryName:"",
+            description:"",
+            imageUrl:"",
+
+        };
+    }
 };
 
 </script>
