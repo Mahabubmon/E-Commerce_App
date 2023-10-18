@@ -22,7 +22,7 @@
                     <label for=""> Image</label>
                         <input type="text" class="form-control" v-model="imageUrl"/>
                 </div>
-                <button type="submit" class="btn btn-primary" >Submit</button>
+                <button type="button" class="btn btn-primary" @click="addCategory" >Submit</button>
             </form>
             </div>
             <div class="col-3"></div>
@@ -32,7 +32,9 @@
 </template>
 
 <script>
+//const axios = require("axios");
 export default{
+    
     data(){
         return {
             categoryName:"",
@@ -40,6 +42,11 @@ export default{
             imageUrl:"",
 
         };
+    },
+    method:{
+        addCategory(){
+        console.log(this.categoryName,this.description);
+        }
     }
 };
 
