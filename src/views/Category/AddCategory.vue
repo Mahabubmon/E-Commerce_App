@@ -10,8 +10,19 @@
         <div class="row">
             <form action="" class="form-group">
                 <div class="form-group">
-                    
+                    <label for="">Name</label>
+                    <input type="text" class="form-control">
                 </div>
+                <div class="form-group">
+                    <label for="">Description</label>
+                    <input type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Image</label>
+                    <input type="text" class="form-control">
+                </div>
+                <button type="submit" >Submit</button>
             </form>
         </div>
     </div>
