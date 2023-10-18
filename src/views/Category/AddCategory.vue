@@ -23,7 +23,7 @@
                     <label for="">Image</label>
                     <input type="text" class="form-control" v-model ="imageUrl">
                 </div>
-                <button type="btn" class="btn btn-primary" @click="addCategory()" >Submit</button>
+                <button type="button" class="btn btn-primary" @click="addCategory()" >Submit</button>
             </form>
             </div>
             <div class="col-3"></div>
@@ -46,6 +46,11 @@ export default{
     methods:{
         addCategory(){
             console.log(this.categoryName,this.description);
+            const newCategory = {
+                categoryName: this.categoryName,
+                description: this.description,
+                imageUrl:    this.imageUrl
+            };
         },
     }
 
