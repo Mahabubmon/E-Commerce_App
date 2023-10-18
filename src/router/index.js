@@ -19,7 +19,7 @@ const routes = [
   },
   {
     path: '/admin/category/add',
-    name: 'Addcategory',
+    name: 'AddCategory',
     component: AddCategory
   },
 ]
