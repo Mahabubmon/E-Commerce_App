@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            <form action="" class="form-group">
+            <form>
                 <div class="form-group">
                     <label for="">Name</label>
                     <input type="text" class="form-control">
@@ -16,7 +16,6 @@
                 <div class="form-group">
                     <label for="">Description</label>
                     <input type="text" class="form-control">
-                </div>
                 </div>
                 <div class="form-group">
                     <label for="">Image</label>
